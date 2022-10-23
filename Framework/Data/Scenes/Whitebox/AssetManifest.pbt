@@ -1,17 +1,4 @@
 Assets {
-  Id: 17157977466683768474
-  Name: "NFTUpgraded"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "5fa066f7d0324fd399216a37ae4a361c"
-      Type {
-        Value: "mc:enetreferencetype:concurrentplayerpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 16772265683136066156
   Name: "JewelPack4"
   PlatformAssetType: 24
@@ -129,6 +116,19 @@ Assets {
   }
 }
 Assets {
+  Id: 14095644299964879682
+  Name: "NFTUpgraded"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "736f3bac1de541adaff6b86ea92b7e2d"
+      Type {
+        Value: "mc:enetreferencetype:concurrentplayerpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 13420476618392182070
   Name: "Gem Pack 1"
   PlatformAssetType: 24
@@ -233,19 +233,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10441760965546680272
-  Name: "Character Additional"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "9990c175b82342c784bf5360e242fd67"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 10039668417810932723
   Name: "SELFGOLDBOOST"
   PlatformAssetType: 24
@@ -311,19 +298,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9003723600529713560
-  Name: "Character1"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "66225082990c4a5ca0d0d5323ea57a88"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 8892646755837011518
   Name: "Starter Pack"
   PlatformAssetType: 24
@@ -332,6 +306,19 @@ Assets {
       Key: "c21f2a8a571e441d8fb6dc83a9e79695"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
+  Id: 8890084963504768507
+  Name: "Character Additional"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "593aee9ba9e44ccc865f295b38dccf75"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
   }
@@ -371,6 +358,19 @@ Assets {
       Key: "a6ce54693101494f951fb3cfc42a0f3c"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
+  Id: 7489370320717218326
+  Name: "Character1"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "c1ea59eb8e3c4981a46e1af08103916e"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
   }
@@ -506,6 +506,19 @@ Assets {
   }
 }
 Assets {
+  Id: 3813171061181193185
+  Name: "Character2"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "7aeabd2d81494469b05fd28814e397db"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 3725870701821859093
   Name: "Gem Pack 3"
   PlatformAssetType: 24
@@ -514,19 +527,6 @@ Assets {
       Key: "7faf80a1c1fb4e3ea5ec9333a5128889"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
-      }
-    }
-  }
-}
-Assets {
-  Id: 3295690706030492699
-  Name: "Character2"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "01c69676f0a843e09e8665b546791748"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
   }
