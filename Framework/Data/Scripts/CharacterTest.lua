@@ -13,7 +13,7 @@ while not _G["Character.Constructor"] do
 end
 
 local AdminList = {
-	["blaking707"] = true
+	["MaizePlaze"] = true
 }
 
 local character = _G["Character.Constructor"]
