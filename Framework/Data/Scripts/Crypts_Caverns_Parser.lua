@@ -27,6 +27,7 @@ function Crypts_Caverns_Parser:create_map(size)
 	end
 end
 
+
 function Crypts_Caverns_Parser:print()
 	local str = ""
 

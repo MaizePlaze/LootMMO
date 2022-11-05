@@ -369,5 +369,17 @@ Assets {
       VirtualFolderPath: "Hierarchy"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "Proc Gen Maze"
+      PlatformAssetType: 3
+    }
+    Folders {
+      VirtualFolderPath: "My Tiles"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Fish"
+      PlatformAssetType: 5
+    }
   }
 }

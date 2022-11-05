@@ -1009,6 +1009,7 @@ Objects {
     }
   }
   ParentId: 13730788985956464351
+  ChildIds: 15403385522632317074
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1027,6 +1028,52 @@ Objects {
     }
     MaxDetailLevel {
       Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15403385522632317074
+  Name: "\"Labyrinth Adventure\" Music Construction Kit (Sections) 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10620982413210373148
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11514296435273858840
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      AutoPlay: true
+      Repeat: true
+      Volume: 0.3001315
+      Falloff: 3600
+      Radius: 400
     }
   }
   NetworkRelevanceDistance {
@@ -1247,6 +1294,180 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 12487762959742348190
+  Name: "Generated Map"
+  Transform {
+    Location {
+      X: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13730788985956464351
+  ChildIds: 5528935409967894900
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:grid"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:mesh"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:grid:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:mesh:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5528935409967894900
+  Name: "GenerateMapNEW"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12487762959742348190
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MapBuilder"
+      AssetReference {
+        Id: 14631672128252264153
+      }
+    }
+    Overrides {
+      Name: "cs:Tiles"
+      AssetReference {
+        Id: 18012987063780653947
+      }
+    }
+    Overrides {
+      Name: "cs:CryptsAndCaverns"
+      AssetReference {
+        Id: 14323262631059956409
+      }
+    }
+    Overrides {
+      Name: "cs:TokenID"
+      Int: 879
+    }
+    Overrides {
+      Name: "cs:TokenID:tooltip"
+      String: "Generate specific token"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5875165104894604850
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14354098084136551191
+  Name: "SceneChangerProcGen"
+  Transform {
+    Location {
+      X: 3178.11426
+      Y: -305
+      Z: 144.999969
+    }
+    Rotation {
+      Pitch: 6.83018879e-06
+      Yaw: 89.9998779
+      Roll: 179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13730788985956464351
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Scene"
+      String: "Park"
+    }
+    Overrides {
+      Name: "cs:Scene:tooltip"
+      String: "Name of the Scene"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11673769856116346784
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 13958670800094208968
   Name: "Client Scripts"
   Transform {
@@ -1312,7 +1533,7 @@ Objects {
     Overrides {
       Name: "cs:GeneratedMap"
       ObjectReference {
-        SelfId: 9871398097424571788
+        SelfId: 12487762959742348190
       }
     }
     Overrides {
@@ -1324,7 +1545,7 @@ Objects {
     Overrides {
       Name: "cs:Music"
       ObjectReference {
-        SelfId: 841534158063459245
+        SelfId: 15403385522632317074
       }
     }
   }
@@ -1367,6 +1588,7 @@ Objects {
   ParentId: 13730788985956464351
   ChildIds: 16500538791770810171
   ChildIds: 15626607927152892002
+  ChildIds: 7425441521378844189
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1381,6 +1603,43 @@ Objects {
   }
   NetworkContext {
     Type: Server
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7425441521378844189
+  Name: "PlayerServerProcGen"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18158385885375512366
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18264466612634860390
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
