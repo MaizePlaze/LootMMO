@@ -14,6 +14,7 @@ local spawnObjectives = MAPS[SELECTED_INDEX].spawnObjectives
 if Environment.IsServer() then
 	local locationName = mapModel:get_attributes()[1].value
 	script.parent:SetCustomProperty("LocationName", locationName)
+	local output = mapModel:print()
 end
 
 -- Convert for map builder format
@@ -83,7 +84,7 @@ for row = minY, maxY do
 end
 
 Task.Wait()
-
+print("Generate Map")
 -- Build the dungeon
 MapBuilder.Spawn(convertedData, {
 	parent = container, 

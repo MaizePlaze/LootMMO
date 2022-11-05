@@ -159,6 +159,7 @@ Objects {
   Name: "Custom Elements"
   Transform {
     Location {
+      Z: -2760
     }
     Rotation {
     }
@@ -290,7 +291,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SelectedMapIndex"
-      Int: 3
+      Int: 4
     }
   }
   Collidable_v2 {

@@ -22,8 +22,8 @@ function Load(mapModel)
 	
 	local svgData = mapModel:get_svg_data()
 	
-	--print(tostring(svgData))
-	
+	print(tostring(svgData))
+	print("Boooo!")
 	-- Title
 	TITLE_TEXT.text = mapModel:get_attributes()[1].value
 	-- Subtitle
