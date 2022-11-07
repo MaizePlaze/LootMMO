@@ -374,11 +374,20 @@ Assets {
       PlatformAssetType: 3
     }
     Folders {
-      VirtualFolderPath: "My Tiles"
+      VirtualFolderPath: "Fish"
       PlatformAssetType: 5
     }
     Folders {
-      VirtualFolderPath: "Fish"
+      VirtualFolderPath: "Proc Gen Tiles"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Proc Gen Dungeon"
+      PlatformAssetType: 31
+    }
+    Folders {
+      VirtualFolderPath: "Proc Gen Tiles"
+      VirtualFolderPath: "Underwater"
       PlatformAssetType: 5
     }
   }

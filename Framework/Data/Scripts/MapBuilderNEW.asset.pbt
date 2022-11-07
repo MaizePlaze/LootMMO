@@ -19,7 +19,7 @@ Assets {
       Overrides {
         Name: "cs:Enemies"
         AssetReference {
-          Id: 1029167625657980991
+          Id: 3622322006152135864
         }
       }
       Overrides {

@@ -949,7 +949,7 @@ Objects {
   Name: "RPG Skeleton - Marksman"
   Transform {
     Location {
-      X: -3700
+      X: 9213.69922
       Y: 950
       Z: 50
     }
@@ -983,7 +983,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LootId"
-      String: ""
+      String: "SkeletonRare"
     }
     Overrides {
       Name: "cs:AttackRange"
@@ -4566,7 +4566,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3687.84424
+            X: 9080.66797
             Y: 199.243164
             Z: 49.999939
           }
@@ -4587,7 +4587,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LootId"
-          String: ""
+          String: "SkeletonCommon"
         }
         Overrides {
           Name: "Damageable.MaxHitPoints"
@@ -4632,7 +4632,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -850
+            X: 8963.4082
             Y: 1600
             Z: 50
           }
@@ -4657,7 +4657,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LootId"
-          String: ""
+          String: "SkeletonCommon"
         }
       }
     }
@@ -5180,7 +5180,7 @@ Objects {
   Name: "RPG Skeleton - Swordsman"
   Transform {
     Location {
-      X: 1450
+      X: 9442.28125
       Y: -850
       Z: 50
     }
@@ -5214,7 +5214,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LootId"
-      String: ""
+      String: "SkeletonCommon"
     }
     Overrides {
       Name: "cs:AttackRange"
@@ -12331,7 +12331,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2400
+            X: 9399.91
             Y: 1100
             Z: 50
           }
@@ -12339,7 +12339,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999924
+            Yaw: -90
           }
         }
         Overrides {
@@ -12356,7 +12356,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LootId"
-          String: ""
+          String: "SkeletonCommon"
         }
         Overrides {
           Name: "Damageable.StartingHitPoints"

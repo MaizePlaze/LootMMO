@@ -1385,11 +1385,7 @@ Objects {
     }
     Overrides {
       Name: "cs:TokenID"
-      Int: 879
-    }
-    Overrides {
-      Name: "cs:TokenID:tooltip"
-      String: "Generate specific token"
+      String: "842"
     }
   }
   Collidable_v2 {

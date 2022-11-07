@@ -23,6 +23,8 @@ Objects {
   ChildIds: 4246661819917374883
   ChildIds: 4244745184024888751
   ChildIds: 1882718114171607823
+  ChildIds: 14088104706564604352
+  ChildIds: 9489065338712085138
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,6 +42,76 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9489065338712085138
+  Name: "RPG Skeleton - Unarmed (Common)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5965388886224970353
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RPG Skeleton - Unarmed (Common)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1236.20386
+            Y: 763.006775
+            Z: 2.28881836e-05
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18343431396922342877
+    }
+  }
+}
+Objects {
+  Id: 14088104706564604352
+  Name: "RPG Raptor (Common)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2691092598115470187
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RPG Raptor (Common)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1233.79236
+            Y: -576.240479
+            Z: 2.28881836e-05
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13441300675391799547
+    }
+  }
 }
 Objects {
   Id: 1882718114171607823

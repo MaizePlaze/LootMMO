@@ -158,7 +158,7 @@ Objects {
   Name: "Custom Elements"
   Transform {
     Location {
-      Z: -2760
+      Z: -4693.34863
     }
     Rotation {
     }

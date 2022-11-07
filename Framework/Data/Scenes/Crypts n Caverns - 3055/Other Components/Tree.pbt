@@ -1009,6 +1009,7 @@ Objects {
     }
   }
   ParentId: 13730788985956464351
+  ChildIds: 3341339765944751844
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1027,6 +1028,52 @@ Objects {
     }
     MaxDetailLevel {
       Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3341339765944751844
+  Name: "\"Labyrinth Adventure\" Music Construction Kit (Sections) 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10620982413210373148
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11514296435273858840
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      AutoPlay: true
+      Repeat: true
+      Volume: 0.353785515
+      Falloff: 3600
+      Radius: 400
     }
   }
   NetworkRelevanceDistance {
@@ -1324,7 +1371,7 @@ Objects {
     Overrides {
       Name: "cs:Music"
       ObjectReference {
-        SelfId: 841534158063459245
+        SelfId: 3341339765944751844
       }
     }
   }

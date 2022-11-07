@@ -175,6 +175,7 @@ end
 ----------------------------------------------------------------------------------------------------
 function MapBuilder.SpawnPlayers(spawnPoint)
 	if spawnPoint == nil or not Environment.IsServer() then
+		print("Spawn Point ", spawnPoint)
 		return
 	end
 
@@ -190,10 +191,22 @@ end
 --Spawn position is same location as tile with small UP added
 ----------------------------------------------------------------------------------------------------
 function MapBuilder.SpawnEnemies(spawnPoints)
-	for index, point in ipairs(spawnPoints) do
 
-		local enemyAsset = ENEMIES[math.random(#ENEMIES)].asset
-		local randZ = math.random(50, 200)
+	local ENEMY_IDS = {
+		"Raptor",
+		"Dragon",
+		"Spider",
+		"Skeleton4"
+	}
+
+	for index, point in ipairs(spawnPoints) do
+		--local enemyAsset = ENEMIES[math.random(#ENEMIES)].asset
+
+		local enemyId = ENEMY_IDS[math.random(#ENEMY_IDS)]
+		local enemyAsset = ENEMIES[enemyId].commonTemplate
+
+
+		local randZ = math.random(50, 50)
 		local enemy = World.SpawnAsset(enemyAsset, {
 			position = point + (Vector3.UP * randZ),
 			--position = point + (Vector3.UP * 50),
