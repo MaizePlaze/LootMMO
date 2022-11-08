@@ -178,7 +178,7 @@ Objects {
     }
     Overrides {
       Name: "cs:TokenID"
-      String: "1436"
+      String: "43"
     }
   }
   Collidable_v2 {
