@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16782924805030540039
-  Name: "Crescent - 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crescent_002"
-  }
-}
-Assets {
   Id: 16772265683136066156
   Name: "JewelPack4"
   PlatformAssetType: 24
@@ -152,24 +143,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14402556056167558311
-  Name: "Sand 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sand_001_uv"
-  }
-}
-Assets {
-  Id: 14281826121533999733
-  Name: "Coral Tubes Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_coral_tube_small_01"
-  }
-}
-Assets {
   Id: 14270419193600238466
   Name: "Hill 02"
   PlatformAssetType: 1
@@ -189,15 +162,6 @@ Assets {
         Value: "mc:enetreferencetype:concurrentplayerpersistence"
       }
     }
-  }
-}
-Assets {
-  Id: 14077945805147147789
-  Name: "Container - Square Thin 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_square_thin_ref"
   }
 }
 Assets {
@@ -253,24 +217,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
-  Id: 11842864016842770105
-  Name: "Bone Human Pile Straight 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_pile_str_01_ref"
-  }
-}
-Assets {
   Id: 11738101196508092081
   Name: "Server Gold"
   PlatformAssetType: 24
@@ -312,15 +258,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_container_rectangle_ref"
-  }
-}
-Assets {
-  Id: 11542148047357685807
-  Name: "Bone Human Scattered 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_scatter_01_ref"
   }
 }
 Assets {
@@ -675,15 +612,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5685026719754291560
-  Name: "Bone Human Pile Straight 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_pile_str_02_ref"
-  }
-}
-Assets {
   Id: 5240045292533111116
   Name: "Premium 2"
   PlatformAssetType: 24
@@ -857,15 +785,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bannister_post_001"
-  }
-}
-Assets {
-  Id: 1197983536016875073
-  Name: "Rock Flat 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_005"
   }
 }
 Assets {

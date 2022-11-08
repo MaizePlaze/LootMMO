@@ -56,6 +56,7 @@ function MapBuilder.GetNeighbors(map, row, column)
 	}
 end
 
+
 --CheckForWallCorner
 --Looks for 3 tile corner patterns by checking cardinal directions
 --Checks if the neighbors of a given tile match the corner pattern

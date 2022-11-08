@@ -1,5 +1,5 @@
 
-local STORAGE_KEY_UTIL = require(script:GetCustomProperty("StorageKeys"))
+--[[local STORAGE_KEY_UTIL = require(script:GetCustomProperty("StorageKeys"))
 local FALLBACK_WEAPON = script:GetCustomProperty("FallbackWeapon")
 
 local PROGRESS_KEY = STORAGE_KEY_UTIL.GetKey("charAdditional")
@@ -75,3 +75,4 @@ function LoadEquipmentStorage(player)
 	end
 end
 
+]]

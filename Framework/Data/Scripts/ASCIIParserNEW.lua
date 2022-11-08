@@ -22,7 +22,10 @@ function ASCIIParser.BuildMap(map, MAP_WIDTH, MAP_HEIGHT)
 		table.insert(tableMap, {})
 
 		for c = 1, MAP_WIDTH do -- Loop through the width (columns)
-			local character = string.sub(map, ((r - 1) * MAP_WIDTH) + c, ((r - 1) * MAP_WIDTH) + c)
+			--local character = string.sub(map, ((r - 1) * MAP_WIDTH) + c, ((r - 1) * MAP_WIDTH) + c)
+
+			local index = (r - 1) * MAP_WIDTH + c
+			local character = string.sub(map, index, index)
 
 			tableMap[r][c] = character
 			mapStr = mapStr .. character

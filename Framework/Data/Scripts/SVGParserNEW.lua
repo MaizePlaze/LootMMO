@@ -7,7 +7,8 @@ function SVG_Parser:CreateMap(size)
 		local col = {}
 
 		for r = 1, size do
-			col[r] = string.sub("-", 1)
+			--col[r] = string.sub("-", 1)
+			col[r] = "1"
 		end
 
 		table.insert(self.map, col)

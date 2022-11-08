@@ -72,11 +72,51 @@ end
 --Adds random enemies and spawn points to the map
 ----------------------------------------------------------------------------------------------------
 function CryptsAndCaverns.ConvertData(mapData, cols, rows)
-	local wallString = nil
-	local converted = {}
+
+-- Convert for map builder format
+local emptyId = "-"
+local wallString = nil
+local minX = 99999
+local maxX = -1
+local minY = 99999
+local maxY = -1
+
+for row = 1, #mapData do
+	for col = 1, #mapData[row] do
+		local entry = mapData[row][col]
+		if entry ~= "-" then
+		    if not wallString then
+				wallString = entry
+			end
+			
+			if maxY < row then
+				maxY = row
+			end
+			if minY > row then
+				minY = row
+			end
+			if maxX < col then
+				maxX = col
+			end
+			if minX > col then
+				minX = col
+			end
+	
+		end
+	end
+end
+
+local width = maxX - minX + 1
+local height = maxY - minY + 1
+
+
+-----------------------------------
+
+	local convertedData = {}
 	local hasSpawn = false
 	local hasExit = false
 
+--[[
 	for row = 1, #mapData do
 		for col = 1, #mapData[row] do
 			if  mapData[row][col] ~= "-" and not wallString then
@@ -85,28 +125,28 @@ function CryptsAndCaverns.ConvertData(mapData, cols, rows)
 			end
 		end
 	end
-
+]]
 	local allZeroTiles = {}
 
 	for row = 1, rows do
-		table.insert(converted, {})
+		table.insert(convertedData, {})
 
 		for col = 1, cols do
 			local entry = mapData[row][col]
 				
 			if entry == wallString then
-				converted[row][col] = "1"
+				convertedData[row][col] = "1"
 			else
 				local spawnEnemy = math.random(1, 100)
 
 				if spawnEnemy <= 10 then
-					converted[row][col] = "E"
+					convertedData[row][col] = "E"
 				else
 					
 					local spawnDecor = math.random(1, 100)
 
 					if spawnDecor <= 30 then
-						converted[row][col] = "C"
+						convertedData[row][col] = "C"
 					else
 						local value = "0"
 					
@@ -128,7 +168,7 @@ function CryptsAndCaverns.ConvertData(mapData, cols, rows)
 							end
 						end
 
-						converted[row][col] = value
+						convertedData[row][col] = value
 						
 						if value == "0" then
 							allZeroTiles[#allZeroTiles + 1] = { row, col }
@@ -142,22 +182,22 @@ function CryptsAndCaverns.ConvertData(mapData, cols, rows)
 	if(not hasSpawn and #allZeroTiles > 0) then
 		local spawnTile = allZeroTiles[math.random(#allZeroTiles)]
 
-		converted[spawnTile[1]][spawnTile[2]] = "S"
+		convertedData[spawnTile[1]][spawnTile[2]] = "S"
 	end
 
-	return converted
+	return convertedData
 end
 
 --GetConvertedASCII
 --Converts map to ASCII format
 --ASCII maps can be sent to MapBuilder script
 ----------------------------------------------------------------------------------------------------
-function CryptsAndCaverns.GetConvertedASCII(converted)
+function CryptsAndCaverns.GetConvertedASCII(convertedData)
 	local str = ""
 
-	for r = 1, #converted do
-		for c = 1, #converted[r] do
-			str = str .. string.sub(tostring(converted[r][c]), 1, 1) .. ""
+	for r = 1, #convertedData do
+		for c = 1, #convertedData[r] do
+			str = str .. string.sub(tostring(convertedData[r][c]), 1, 1) .. ""
 		end
 
 		str = str .. "\n"
