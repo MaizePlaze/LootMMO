@@ -23,9 +23,7 @@ function CryptsAndCaverns.Load(tokenId, enviro)
 	--Gets contract address and token ID - ensure token is String format
 	local token, success, msg = Blockchain.GetToken(CryptsAndCaverns.SMART_CONTRACT_ADDRESS, tostring(tokenId or math.random(CryptsAndCaverns.COLLECTION_COUNT)))
 
-	if enviro == nil then
-		enviro = "Crypt"
-	else
+	if enviro ~= "" and tokenId == "" then
 		attribute = token:GetAttribute("environment")
 		attributeValue = attribute:GetValue()
 		print("Token Attribute: ", attributeValue)

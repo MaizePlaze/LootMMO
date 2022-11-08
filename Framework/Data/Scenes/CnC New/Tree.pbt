@@ -190,7 +190,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Environment"
-      String: "Stone Temple"
+      String: ""
     }
   }
   Collidable_v2 {
