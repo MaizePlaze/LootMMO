@@ -1051,11 +1051,11 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Light {
-          Intensity: 6.16804218
+          Intensity: 4.85860395
           Color {
-            R: 0.19
-            G: 0.742516518
-            B: 1
+            R: 1
+            G: 0.726868153
+            B: 0.477918148
             A: 1
           }
           CastShadows: true
@@ -1063,7 +1063,8 @@ Assets {
           TeamSettings {
           }
           Light {
-            Temperature: 1699.8501
+            UseTemperature: true
+            Temperature: 2000
             LocalLight {
               AttenuationRadius: 388.848907
               PointLight {
@@ -1079,7 +1080,7 @@ Assets {
           ShadowSlopeBias: 0.6
         }
         Relevance {
-          Value: "mc:eproxyrelevance:high"
+          Value: "mc:eproxyrelevance:medium"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"

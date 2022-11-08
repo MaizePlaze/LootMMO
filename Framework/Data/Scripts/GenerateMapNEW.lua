@@ -3,6 +3,7 @@ local MAP_BUILDER = require(script:GetCustomProperty("MapBuilder"))
 local TILES = require(script:GetCustomProperty("Tiles"))
 local CryptsAndCaverns = require(script:GetCustomProperty("CryptsAndCaverns"))
 local TOKEN_ID = script:GetCustomProperty("TokenID")
+local ENVIRONMENT = script:GetCustomProperty("Environment")
 
 
 local STATIC_CONTAINER = script.parent
@@ -50,7 +51,7 @@ MAP_BUILDER.Build({
 --Load function returns ASCII string and total rows and cols
 --"8002"
 ----------------------------------------------------------------------------------------------------
-local ascii, rows, cols = CryptsAndCaverns.Load(TOKEN_ID)
+local ascii, rows, cols = CryptsAndCaverns.Load(TOKEN_ID, ENVIRONMENT)
 
 MAP_BUILDER.Build({
 

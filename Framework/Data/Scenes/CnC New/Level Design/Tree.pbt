@@ -353,6 +353,90 @@ Objects {
           Name: "bp:Intensity"
           Float: 0.5
         }
+        Overrides {
+          Name: "bp:Draw Sun"
+          Bool: false
+        }
+        Overrides {
+          Name: "bp:Cast Shadows"
+          Bool: false
+        }
+        Overrides {
+          Name: "bp:Use Temperature"
+          Bool: false
+        }
+        Overrides {
+          Name: "bp:Light Shaft Occlusion"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3238107202644882520
+      value {
+        Overrides {
+          Name: "bp:Color"
+          Color {
+            R: 1
+            G: 0.963133395
+            B: 0.447000027
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Albedo"
+          Color {
+            R: 1
+            G: 0.798666656
+            B: 0.244999945
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Directional Inscattering Color"
+          Color {
+            R: 0.256
+            G: 0.190173864
+            B: 0.187904
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3904399569566402538
+      value {
+        Overrides {
+          Name: "bp:Intensity"
+          Float: 1.06819534
+        }
+        Overrides {
+          Name: "bp:Tint Color"
+          Color {
+            R: 1
+            G: 0.910166681
+            B: 0.51
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Cast Shadows"
+          Bool: false
+        }
+        Overrides {
+          Name: "bp:Occlusion Contrast"
+          Float: 0.543528557
+        }
+        Overrides {
+          Name: "bp:Indirect Intensity"
+          Float: 0.552470863
+        }
+        Overrides {
+          Name: "bp:Ambient Image"
+          Enum {
+            Value: "mc:eambientcubemapssmall:5"
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -369,6 +453,58 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4198575006130768415
+      value {
+        Overrides {
+          Name: "bp:Brightness"
+          Float: 0.230546772
+        }
+        Overrides {
+          Name: "bp:Overall Tint"
+          Color {
+            R: 1
+            G: 0.677
+            B: 0.677
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Clouds"
+          Bool: false
+        }
+        Overrides {
+          Name: "bp:Horizon Color"
+          Color {
+            R: 0.193
+            G: 0.184019864
+            B: 0.181535989
+            A: 0.9
+          }
+        }
+        Overrides {
+          Name: "bp:Zenith Color"
+          Color {
+            R: 0.35
+            G: 0.248484507
+            B: 0.085177
+            A: 0.6
+          }
+        }
+        Overrides {
+          Name: "bp:Enable Opaque Sky"
+          Bool: true
+        }
+        Overrides {
+          Name: "bp:Horizon Falloff"
+          Float: 6
+        }
+        Overrides {
+          Name: "bp:Haze Falloff"
+          Float: 15
         }
       }
     }

@@ -113,11 +113,19 @@ Objects {
       Float: 0
     }
     Overrides {
+      Name: "cs:Location"
+      String: ""
+    }
+    Overrides {
       Name: "cs:grid:isrep"
       Bool: true
     }
     Overrides {
       Name: "cs:mesh:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Location:isrep"
       Bool: true
     }
   }
@@ -178,7 +186,11 @@ Objects {
     }
     Overrides {
       Name: "cs:TokenID"
-      String: "43"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Environment"
+      String: "Stone Temple"
     }
   }
   Collidable_v2 {

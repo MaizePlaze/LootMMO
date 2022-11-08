@@ -17,10 +17,37 @@ local CryptsAndCaverns = {
 --Recieves a token ID or chooses random ID
 --Calls libraries to decode and convert NFT data
 ----------------------------------------------------------------------------------------------------
-function CryptsAndCaverns.Load(tokenId)
-	
-    --Gets contract address and token ID - ensure token is String format
+function CryptsAndCaverns.Load(tokenId, enviro)
+	local attribute = nil
+	local attributeValue = nil
+	--Gets contract address and token ID - ensure token is String format
 	local token, success, msg = Blockchain.GetToken(CryptsAndCaverns.SMART_CONTRACT_ADDRESS, tostring(tokenId or math.random(CryptsAndCaverns.COLLECTION_COUNT)))
+
+	if enviro == nil then
+		enviro = "Crypt"
+	else
+		attribute = token:GetAttribute("environment")
+		attributeValue = attribute:GetValue()
+		print("Token Attribute: ", attributeValue)
+
+		--Match Environment Type Attribute
+		local isMatch = false
+		
+		while isMatch == false do
+			
+			if attributeValue == enviro then
+				isMatch = true
+				print("Matched Environment")
+			else
+				print("No Match")
+				token, success, msg = Blockchain.GetToken(CryptsAndCaverns.SMART_CONTRACT_ADDRESS, tostring(math.random(CryptsAndCaverns.COLLECTION_COUNT)))
+				attribute = token:GetAttribute("environment")
+				attributeValue = attribute:GetValue()
+				print("Token Attribute: ", attributeValue)
+			end	
+		end
+	end
+
 
 	Task.Wait()
     --decode raw metadata from token

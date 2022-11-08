@@ -1,13 +1,13 @@
 Assets {
   Id: 8145544212189763444
-  Name: "Floor Debris"
+  Name: "Debris - Bones"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 12844609958529290761
       Objects {
         Id: 12844609958529290761
-        Name: "Floor Debris"
+        Name: "Debris - Bones"
         Transform {
           Scale {
             X: 1
@@ -44,13 +44,14 @@ Assets {
           Location {
             X: -0.0439453125
             Y: 0.297485352
+            Z: 5
           }
           Rotation {
           }
           Scale {
-            X: 0.133461192
-            Y: 0.133461192
-            Z: 0.133461192
+            X: 0.4
+            Y: 0.4
+            Z: 0.4
           }
         }
         ParentId: 12844609958529290761

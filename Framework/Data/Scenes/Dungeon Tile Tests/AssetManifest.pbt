@@ -836,15 +836,6 @@ Assets {
   }
 }
 Assets {
-  Id: 534086722770365340
-  Name: "Cliff Desert Wind Eroded 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_cliff_desert_eroded_001_uv_ref"
-  }
-}
-Assets {
   Id: 475846468530642491
   Name: "Server XP"
   PlatformAssetType: 24
