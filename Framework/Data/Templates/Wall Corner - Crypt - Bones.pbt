@@ -57,6 +57,7 @@ Assets {
         ParentId: 3889716785733686250
         ChildIds: 7505557049926964075
         ChildIds: 15706157151463664219
+        ChildIds: 18084388718326244419
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -233,6 +234,61 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 18084388718326244419
+        Name: "Bone Human Skull 01"
+        Transform {
+          Location {
+            X: 48
+            Y: -45
+            Z: 79
+          }
+          Rotation {
+            Yaw: 45
+          }
+          Scale {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+        ParentId: 8890854063000327563
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11594524757616528940
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 51355294336001605
         Name: "ClientContext"
         Transform {
@@ -251,7 +307,9 @@ Assets {
           }
         }
         ParentId: 3889716785733686250
-        ChildIds: 408047068822862071
+        ChildIds: 9779919936922709270
+        ChildIds: 8849922351555720590
+        ChildIds: 18038251081728129399
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -278,120 +336,217 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 408047068822862071
-        Name: "Fantasy Candle Lit - Sconce 01 (Prop)"
+        Id: 9779919936922709270
+        Name: "Point Light"
         Transform {
           Location {
-            X: 271.250366
-            Y: -1217.07593
-            Z: 32.2069626
+            X: -2.56426048
+            Y: 6.99638557
+            Z: 52.0000229
           }
           Rotation {
             Yaw: -179.999954
           }
           Scale {
-            X: 0.171698973
-            Y: 0.171698973
-            Z: 0.171698973
+            X: 0.399999917
+            Y: 0.399999917
+            Z: 0.399999917
           }
         }
         ParentId: 51355294336001605
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4079025086750496989
-            value {
-              Overrides {
-                Name: "Name"
-                String: "Fantasy Candle Lit - Sconce 01 (Prop)"
-              }
-              Overrides {
-                Name: "Rotation"
-                Rotator {
-                  Yaw: -179.999954
-                }
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 0.4
-                  Y: 0.4
-                  Z: 0.4
-                }
-              }
-              Overrides {
-                Name: "Position"
-                Vector {
-                  X: 2.0980835e-05
-                  Y: 21.9968109
-                  Z: 27.9999695
-                }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Light {
+          Intensity: 4.85860395
+          Color {
+            R: 1
+            G: 0.726868153
+            B: 0.477918148
+            A: 1
+          }
+          CastShadows: true
+          VolumetricIntensity: 5
+          TeamSettings {
+          }
+          Light {
+            UseTemperature: true
+            Temperature: 2000
+            LocalLight {
+              AttenuationRadius: 232.240112
+              PointLight {
+                SourceRadius: 9.23469257
+                SoftSourceRadius: 100
+                FallOffExponent: 8
               }
             }
+            MaxDrawDistance: 5000
+            MaxDistanceFadeRange: 1000
           }
-          ParameterOverrideMap {
-            key: 7660077243464683738
-            value {
-              Overrides {
-                Name: "Position"
-                Vector {
-                  X: 0.234615266
-                  Y: 0.539544046
-                  Z: 17.2326164
-                }
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 0.999999762
-                  Y: 0.999999762
-                  Z: 0.999999762
-                }
-              }
-              Overrides {
-                Name: "UseAttenuationRadius"
-                Bool: false
-              }
-              Overrides {
-                Name: "CastShadows"
-                Bool: true
-              }
-              Overrides {
-                Name: "Intensity"
-                Float: 4.85860395
-              }
-              Overrides {
-                Name: "AttenuationRadius"
-                Float: 232.240112
-              }
+          ShadowBias: 0.4
+          ShadowSlopeBias: 0.6
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 8849922351555720590
+        Name: "Spider Rig"
+        Transform {
+          Location {
+            X: 12.9740124
+            Y: 18.9508057
+            Z: 8.00002289
+          }
+          Rotation {
+            Pitch: 45
+            Yaw: 180
+            Roll: 90
+          }
+          Scale {
+            X: 0.0481471084
+            Y: 0.0481471084
+            Z: 0.0481471084
+          }
+        }
+        ParentId: 51355294336001605
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 7561732624237554014
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          AnimatedMesh {
+            AnimationStance: "unarmed_idle_relaxed"
+            AnimationStancePlaybackRate: 1
+            AnimationStanceShouldLoop: true
+            AnimationPlaybackRateMultiplier: 1
+            PlayOnStartAnimation {
+              PlaybackRate: 1
+            }
+            SkinnedMeshes {
+              Id: 18236746965429571657
+            }
+            SkinnedMeshes {
+              Id: 841534158063459245
+            }
+            SkinnedMeshes {
+              Id: 841534158063459245
+            }
+            SkinnedMeshes {
+              Id: 841534158063459245
             }
           }
-          ParameterOverrideMap {
-            key: 12697071862094856154
-            value {
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 1
-                  Y: 1
-                  Z: 1
-                }
-              }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 18038251081728129399
+        Name: "Spiderweb VFX"
+        Transform {
+          Location {
+            X: -21.6745358
+            Y: -1.55527878
+            Z: 24
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.100000009
+            Y: 0.100000009
+            Z: 0.100000009
+          }
+        }
+        ParentId: 51355294336001605
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Movement Threshold"
+            Float: 0.0332286544
+          }
+          Overrides {
+            Name: "bp:Camera Depth Fade Start"
+            Float: 16.2361679
+          }
+          Overrides {
+            Name: "bp:Appearance"
+            Int: 1
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.995000064
             }
           }
-          ParameterOverrideMap {
-            key: 16507620443951808602
-            value {
-              Overrides {
-                Name: "Position"
-                Vector {
-                  X: -0.234558105
-                }
-              }
-            }
+          Overrides {
+            Name: "bp:Max Distance"
+            Float: 6.52581
           }
-          TemplateAsset {
-            Id: 2712312633114401007
+          Overrides {
+            Name: "bp:Camera Depth Fade Stop"
+            Float: -33.5744514
           }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3374193802675370255
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
         IsReplicationEnabledByDefault: true
       }
@@ -421,6 +576,42 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_gravel_uncombed_001_uv_ref"
+      }
+    }
+    Assets {
+      Id: 11594524757616528940
+      Name: "Bone Human Skull 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_bones_human_skull_01_ref"
+      }
+    }
+    Assets {
+      Id: 7561732624237554014
+      Name: "Spider Rig"
+      PlatformAssetType: 25
+      PrimaryAsset {
+        AssetType: "SkeletonAssetRef"
+        AssetId: "npc_spider_default_wireframe_ref"
+      }
+    }
+    Assets {
+      Id: 18236746965429571657
+      Name: "Spider Skinned Mesh"
+      PlatformAssetType: 26
+      PrimaryAsset {
+        AssetType: "SkinnedMeshAssetRef"
+        AssetId: "npc_spider_default_ref"
+      }
+    }
+    Assets {
+      Id: 3374193802675370255
+      Name: "Spiderweb VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_web"
       }
     }
     PrimaryAssetId {

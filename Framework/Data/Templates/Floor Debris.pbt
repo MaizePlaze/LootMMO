@@ -1,13 +1,13 @@
 Assets {
-  Id: 5178776128129511083
-  Name: "Floor - Crypt"
+  Id: 8145544212189763444
+  Name: "Floor Debris"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1009112574901401343
+      RootId: 12844609958529290761
       Objects {
-        Id: 1009112574901401343
-        Name: "Floor - Crypt"
+        Id: 12844609958529290761
+        Name: "Floor Debris"
         Transform {
           Scale {
             X: 1
@@ -16,8 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 10068862444569155812
-        ChildIds: 1106999184872500229
+        ChildIds: 14324516807817713606
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -39,100 +38,32 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 10068862444569155812
-        Name: "Tile"
+        Id: 14324516807817713606
+        Name: "Debris with Bones"
         Transform {
           Location {
-            Z: -5
+            X: -0.0439453125
+            Y: 0.297485352
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 0.1
+            X: 0.133461192
+            Y: 0.133461192
+            Z: 0.133461192
           }
         }
-        ParentId: 1009112574901401343
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5401769684901406826
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.436540037
-              G: 0.495742053
-              B: 0.59800005
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12095835209017042614
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 1106999184872500229
-        Name: "ClientContext"
-        Transform {
-          Location {
-            Y: -2.58642578
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.1
-            Y: 0.1
-            Z: 0.1
-          }
-        }
-        ParentId: 1009112574901401343
-        ChildIds: 9475907065761464444
-        ChildIds: 11654484581244558751
-        ChildIds: 13435139956222668237
-        ChildIds: 614768251130617979
-        ChildIds: 2300568610684971281
-        ChildIds: 1723460019466527430
-        ChildIds: 17622015876347348310
-        ChildIds: 6957756180541497237
-        ChildIds: 13885072001124545038
-        ChildIds: 7007020608072638099
+        ParentId: 12844609958529290761
+        ChildIds: 3621106823762599728
+        ChildIds: 7193206726871491604
+        ChildIds: 5353618483012570440
+        ChildIds: 7166846957963786043
+        ChildIds: 15772182732576973071
+        ChildIds: 4363144542302899538
+        ChildIds: 5845921985939692141
+        ChildIds: 6224333026873317043
+        ChildIds: 10722725392094059149
+        ChildIds: 14157178751219999900
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -162,7 +93,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 9475907065761464444
+        Id: 3621106823762599728
         Name: "DeleteOptionalSiblings"
         Transform {
           Location {
@@ -175,7 +106,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1106999184872500229
+        ParentId: 14324516807817713606
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -201,7 +132,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 11654484581244558751
+        Id: 7193206726871491604
         Name: "Decal Rubble Concrete 02"
         Transform {
           Location {
@@ -217,7 +148,7 @@ Assets {
             Z: 0.1
           }
         }
-        ParentId: 1106999184872500229
+        ParentId: 14324516807817713606
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -245,7 +176,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 13435139956222668237
+        Id: 5353618483012570440
         Name: "Group"
         Transform {
           Location {
@@ -260,10 +191,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1106999184872500229
-        ChildIds: 5893816777784179436
-        ChildIds: 16382189351529211836
-        ChildIds: 8641811866257790995
+        ParentId: 14324516807817713606
+        ChildIds: 8436305672805764396
+        ChildIds: 18397449198186908305
+        ChildIds: 11226239852434937334
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -285,26 +216,26 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5893816777784179436
+        Id: 8436305672805764396
         Name: "Rock Pile 002"
         Transform {
           Location {
-            X: 409.121582
-            Y: -392.027344
-            Z: -15.2403946
+            X: 334.223267
+            Y: -281.827301
+            Z: -15.2403889
           }
           Rotation {
-            Pitch: -5.44912481
-            Yaw: -4.06372213
+            Pitch: -5.4491272
+            Yaw: -4.0637207
             Roll: 79.6995544
           }
           Scale {
             X: 0.485101879
             Y: 0.258195817
-            Z: 0.485108
+            Z: 0.485108018
           }
         }
-        ParentId: 13435139956222668237
+        ParentId: 5353618483012570440
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -359,13 +290,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 16382189351529211836
+        Id: 18397449198186908305
         Name: "Rock Pile 002"
         Transform {
           Location {
-            X: 415.077148
-            Y: -125.390625
-            Z: -10.630867
+            X: 219.805099
+            Y: -125.619209
+            Z: -10.6308661
           }
           Rotation {
             Yaw: 129.066055
@@ -376,7 +307,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 13435139956222668237
+        ParentId: 5353618483012570440
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -431,13 +362,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 8641811866257790995
+        Id: 11226239852434937334
         Name: "Rock Pile 002"
         Transform {
           Location {
-            X: -50.6662598
-            Y: -383.608398
-            Z: -10.630806
+            X: 83.5748
+            Y: -174.319992
+            Z: -10.6308088
           }
           Rotation {
             Yaw: 129.066147
@@ -448,7 +379,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 13435139956222668237
+        ParentId: 5353618483012570440
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -503,7 +434,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 614768251130617979
+        Id: 7166846957963786043
         Name: "Liquid Decal"
         Transform {
           Location {
@@ -519,7 +450,7 @@ Assets {
             Z: 0.1
           }
         }
-        ParentId: 1106999184872500229
+        ParentId: 14324516807817713606
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -558,7 +489,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 2300568610684971281
+        Id: 15772182732576973071
         Name: "Group"
         Transform {
           Location {
@@ -571,11 +502,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1106999184872500229
-        ChildIds: 5959385006112701843
-        ChildIds: 15092594742324645552
-        ChildIds: 8377007392999235130
-        ChildIds: 15554770074397077175
+        ParentId: 14324516807817713606
+        ChildIds: 13723513456352764160
+        ChildIds: 17859737249106746622
+        ChildIds: 3891488407226556514
+        ChildIds: 6632353019157529192
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -597,13 +528,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5959385006112701843
+        Id: 13723513456352764160
         Name: "Rock Pile 002"
         Transform {
           Location {
-            X: 92.2011719
-            Y: -405.581055
-            Z: -10.6306229
+            X: -232.672852
+            Y: -295.513885
+            Z: -10.6306372
           }
           Rotation {
             Yaw: -145.531113
@@ -614,7 +545,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 2300568610684971281
+        ParentId: 15772182732576973071
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -669,7 +600,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 15092594742324645552
+        Id: 17859737249106746622
         Name: "Rock Pile 002"
         Transform {
           Location {
@@ -686,7 +617,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 2300568610684971281
+        ParentId: 15772182732576973071
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -741,7 +672,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 8377007392999235130
+        Id: 3891488407226556514
         Name: "Rock Pile 002"
         Transform {
           Location {
@@ -760,7 +691,7 @@ Assets {
             Z: 0.618573368
           }
         }
-        ParentId: 2300568610684971281
+        ParentId: 15772182732576973071
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -815,13 +746,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 15554770074397077175
+        Id: 6632353019157529192
         Name: "Rock Pile 002"
         Transform {
           Location {
-            X: 272.422607
-            Y: 281.143555
-            Z: -10.6307449
+            X: 301.543945
+            Y: 199.476761
+            Z: -10.6307516
           }
           Rotation {
             Yaw: 18.7461052
@@ -832,7 +763,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 2300568610684971281
+        ParentId: 15772182732576973071
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -887,7 +818,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 1723460019466527430
+        Id: 4363144542302899538
         Name: "Group"
         Transform {
           Location {
@@ -900,12 +831,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1106999184872500229
-        ChildIds: 8969632157775287389
-        ChildIds: 14326298795436081254
-        ChildIds: 5016517916864278056
-        ChildIds: 14960264805823994897
-        ChildIds: 14196149305232969717
+        ParentId: 14324516807817713606
+        ChildIds: 15828927464882225893
+        ChildIds: 10227512740511743052
+        ChildIds: 14900112028118675158
+        ChildIds: 13442348638701035434
+        ChildIds: 16314349181849258994
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -927,13 +858,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 8969632157775287389
+        Id: 15828927464882225893
         Name: "Rock Pile 002"
         Transform {
           Location {
-            X: -103.710938
-            Y: 500.611328
-            Z: -10.6307449
+            X: 57.3682365
+            Y: 202.139542
+            Z: -10.6307516
           }
           Rotation {
             Yaw: 18.7461109
@@ -944,7 +875,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 1723460019466527430
+        ParentId: 4363144542302899538
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -999,13 +930,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 14326298795436081254
+        Id: 10227512740511743052
         Name: "Rock Pile 002"
         Transform {
           Location {
-            X: -364.613037
-            Y: 24.1748047
-            Z: -10.630806
+            X: -272.592072
+            Y: -5.51991415
+            Z: -0.000228662568
           }
           Rotation {
             Yaw: 18.7461185
@@ -1016,7 +947,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 1723460019466527430
+        ParentId: 4363144542302899538
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1071,7 +1002,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5016517916864278056
+        Id: 14900112028118675158
         Name: "Rock Pile 002"
         Transform {
           Location {
@@ -1088,7 +1019,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 1723460019466527430
+        ParentId: 4363144542302899538
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1143,7 +1074,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 14960264805823994897
+        Id: 13442348638701035434
         Name: "Rock Pile 002"
         Transform {
           Location {
@@ -1160,7 +1091,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 1723460019466527430
+        ParentId: 4363144542302899538
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1215,13 +1146,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 14196149305232969717
+        Id: 16314349181849258994
         Name: "Rock Pile 002"
         Transform {
           Location {
-            X: -116.012451
-            Y: -398.049805
-            Z: -10.6308975
+            X: -91.2969589
+            Y: -302.971741
+            Z: -10.6308947
           }
           Rotation {
             Yaw: -169.500595
@@ -1232,7 +1163,7 @@ Assets {
             Z: 0.618574142
           }
         }
-        ParentId: 1723460019466527430
+        ParentId: 4363144542302899538
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1287,17 +1218,17 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 17622015876347348310
+        Id: 5845921985939692141
         Name: "Bone Human Scattered 02"
         Transform {
           Location {
-            X: 300
-            Y: -200
+            X: 201.398895
+            Y: -82.9411697
           }
           Rotation {
-            Pitch: -1.83551073
+            Pitch: -1.83551025
             Yaw: -131.078064
-            Roll: -1.25576794
+            Roll: -1.25576782
           }
           Scale {
             X: 1.195629
@@ -1305,7 +1236,7 @@ Assets {
             Z: 1.195629
           }
         }
-        ParentId: 1106999184872500229
+        ParentId: 14324516807817713606
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1343,17 +1274,17 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 6957756180541497237
+        Id: 6224333026873317043
         Name: "Bone Human Scattered 02"
         Transform {
           Location {
-            X: -295.538818
-            Y: 308.450195
+            X: -97.0642853
+            Y: 101.739296
           }
           Rotation {
-            Pitch: -1.83551073
+            Pitch: -1.83551025
             Yaw: 35.3977051
-            Roll: -1.25576806
+            Roll: -1.25576782
           }
           Scale {
             X: 1.195629
@@ -1361,7 +1292,7 @@ Assets {
             Z: 1.195629
           }
         }
-        ParentId: 1106999184872500229
+        ParentId: 14324516807817713606
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1399,18 +1330,18 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 13885072001124545038
+        Id: 10722725392094059149
         Name: "Bone Human Scattered 02"
         Transform {
           Location {
-            X: -158.787109
-            Y: -281.451172
-            Z: -6.10351562e-05
+            X: -109.211075
+            Y: -196.824509
+            Z: -5.71656419e-05
           }
           Rotation {
-            Pitch: -1.83551073
+            Pitch: -1.83551025
             Yaw: 96.3216553
-            Roll: -1.25576794
+            Roll: -1.25576782
           }
           Scale {
             X: 1.195629
@@ -1418,7 +1349,7 @@ Assets {
             Z: 1.195629
           }
         }
-        ParentId: 1106999184872500229
+        ParentId: 14324516807817713606
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1456,18 +1387,18 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 7007020608072638099
+        Id: 14157178751219999900
         Name: "Bone Human Scattered 02"
         Transform {
           Location {
-            X: 100
-            Y: 200
-            Z: -6.10351562e-05
+            X: 144.38829
+            Y: 84.0362396
+            Z: -5.71656419e-05
           }
           Rotation {
-            Pitch: -1.83551073
-            Yaw: -60.0403938
-            Roll: -1.25576794
+            Pitch: -1.83551025
+            Yaw: -60.0404053
+            Roll: -1.25576782
           }
           Scale {
             X: 1.195629
@@ -1475,7 +1406,7 @@ Assets {
             Z: 1.195629
           }
         }
-        ParentId: 1106999184872500229
+        ParentId: 14324516807817713606
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1511,15 +1442,6 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
         IsReplicationEnabledByDefault: true
-      }
-    }
-    Assets {
-      Id: 12095835209017042614
-      Name: "Cube"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_002"
       }
     }
     Assets {

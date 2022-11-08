@@ -18,6 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 16776803074580727822
         ChildIds: 1034759341724574182
+        ChildIds: 14538524077307225879
         ChildIds: 12355894378150684143
         ChildIds: 2687754222120790008
         ChildIds: 10412139977703848085
@@ -691,8 +692,8 @@ Assets {
         Name: "Castle Pillar Mid"
         Transform {
           Location {
-            X: 49.9828491
-            Y: -50
+            X: 49.9999962
+            Y: -49.5351562
             Z: -2.28881836e-05
           }
           Rotation {
@@ -790,7 +791,7 @@ Assets {
         Transform {
           Location {
             X: -50
-            Y: -50
+            Y: -49.8541565
           }
           Rotation {
             Yaw: 89.9999542
@@ -887,7 +888,7 @@ Assets {
         Transform {
           Location {
             X: -50
-            Y: 50
+            Y: 49.8335037
           }
           Rotation {
             Yaw: 89.9999542
@@ -979,180 +980,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 12355894378150684143
-        Name: "Bones"
-        Transform {
-          Location {
-            X: -7.85678101
-            Y: -1.58677423
-            Z: 3
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16842257764218057315
-        ChildIds: 8525684397509358558
-        ChildIds: 7861360330836742060
-        ChildIds: 14538524077307225879
-        ChildIds: 4196385377588656689
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 8525684397509358558
-        Name: "Bone Human Pile Straight 01"
-        Transform {
-          Location {
-            X: -57.1603699
-            Y: 0.170410156
-            Z: 6.99997711
-          }
-          Rotation {
-            Yaw: -172.323
-          }
-          Scale {
-            X: 0.3
-            Y: -0.3
-            Z: 0.3
-          }
-        }
-        ParentId: 12355894378150684143
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 5685026719754291560
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 7861360330836742060
-        Name: "Spider Rig"
-        Transform {
-          Location {
-            X: 29.1374512
-            Y: -44.8295898
-            Z: 51.1546249
-          }
-          Rotation {
-            Pitch: 135
-            Roll: -90
-          }
-          Scale {
-            X: 0.0481471084
-            Y: 0.0481471084
-            Z: 0.0481471084
-          }
-        }
-        ParentId: 12355894378150684143
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7561732624237554014
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          AnimatedMesh {
-            AnimationStance: "unarmed_idle_relaxed"
-            AnimationStancePlaybackRate: 1
-            AnimationStanceShouldLoop: true
-            AnimationPlaybackRateMultiplier: 1
-            PlayOnStartAnimation {
-              PlaybackRate: 1
-            }
-            SkinnedMeshes {
-              Id: 18236746965429571657
-            }
-            SkinnedMeshes {
-              Id: 841534158063459245
-            }
-            SkinnedMeshes {
-              Id: 841534158063459245
-            }
-            SkinnedMeshes {
-              Id: 841534158063459245
-            }
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
         Id: 14538524077307225879
         Name: "Shrine"
         Transform {
           Location {
-            X: 7.83959961
-            Y: 50.5867615
-            Z: 3.99997711
+            X: -0.0171813965
+            Y: 48.4648323
+            Z: 6.99997711
           }
           Rotation {
           }
@@ -1162,7 +996,7 @@ Assets {
             Z: 0.25
           }
         }
-        ParentId: 12355894378150684143
+        ParentId: 16842257764218057315
         ChildIds: 9664396056118311040
         ChildIds: 6801441662181604786
         ChildIds: 7810900454589546654
@@ -1557,25 +1391,119 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 12355894378150684143
+        Name: "Bones"
+        Transform {
+          Location {
+            X: -7.85678101
+            Y: -1.58677423
+            Z: 3
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16842257764218057315
+        ChildIds: 8525684397509358558
+        ChildIds: 4196385377588656689
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 8525684397509358558
+        Name: "Bone Human Pile Straight 01"
+        Transform {
+          Location {
+            X: -50.143219
+            Y: 12.5867739
+            Z: 7.99997711
+          }
+          Rotation {
+            Yaw: -172.323
+          }
+          Scale {
+            X: 0.2
+            Y: -0.2
+            Z: 0.2
+          }
+        }
+        ParentId: 12355894378150684143
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5685026719754291560
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 4196385377588656689
         Name: "Window"
         Transform {
           Location {
-            X: 57.8396
-            Y: 0.170410156
+            X: 52.856781
+            Y: 7.9870224e-06
             Z: 41.9999695
           }
           Rotation {
             Yaw: -90
           }
           Scale {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
         ParentId: 12355894378150684143
-        ChildIds: 8107718187475170129
         ChildIds: 1156283874570550609
         ChildIds: 12563841897807303214
         Collidable_v2 {
@@ -1599,92 +1527,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 8107718187475170129
-        Name: "Spiderweb VFX"
-        Transform {
-          Location {
-            X: -3.14367652
-            Z: 4.27008057
-          }
-          Rotation {
-            Yaw: -179.999954
-          }
-          Scale {
-            X: 0.2
-            Y: 0.2
-            Z: 0.2
-          }
-        }
-        ParentId: 4196385377588656689
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Movement Threshold"
-            Float: 0.0332286544
-          }
-          Overrides {
-            Name: "bp:Camera Depth Fade Start"
-            Float: 16.2361679
-          }
-          Overrides {
-            Name: "bp:Appearance"
-            Int: 1
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 0.995000064
-            }
-          }
-          Overrides {
-            Name: "bp:Max Distance"
-            Float: 6.52581
-          }
-          Overrides {
-            Name: "bp:Camera Depth Fade Stop"
-            Float: -33.5744514
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 3374193802675370255
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
         Id: 1156283874570550609
         Name: "Small False Window"
         Transform {
           Location {
-            X: -0.91003406
-            Y: -0.253539979
-            Z: 10.0000076
+            X: -0.910033584
+            Y: 3.28159308
+            Z: 10.0000143
           }
           Rotation {
             Yaw: 2.04905591e-05
@@ -1693,7 +1542,7 @@ Assets {
           Scale {
             X: 0.234424502
             Y: 0.289522201
-            Z: 0.241064176
+            Z: 0.241064191
           }
         }
         ParentId: 4196385377588656689
@@ -2229,8 +2078,8 @@ Assets {
                 Name: "Position"
                 Vector {
                   X: 15.1234131
-                  Y: 23.1925659
-                  Z: 37.9999695
+                  Y: 24.4132385
+                  Z: 32.9999695
                 }
               }
             }
@@ -2340,33 +2189,6 @@ Assets {
       }
     }
     Assets {
-      Id: 5685026719754291560
-      Name: "Bone Human Pile Straight 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bones_human_pile_str_02_ref"
-      }
-    }
-    Assets {
-      Id: 7561732624237554014
-      Name: "Spider Rig"
-      PlatformAssetType: 25
-      PrimaryAsset {
-        AssetType: "SkeletonAssetRef"
-        AssetId: "npc_spider_default_wireframe_ref"
-      }
-    }
-    Assets {
-      Id: 18236746965429571657
-      Name: "Spider Skinned Mesh"
-      PlatformAssetType: 26
-      PrimaryAsset {
-        AssetType: "SkinnedMeshAssetRef"
-        AssetId: "npc_spider_default_ref"
-      }
-    }
-    Assets {
       Id: 10196367170525169487
       Name: "Stone Window"
       PlatformAssetType: 1
@@ -2394,12 +2216,12 @@ Assets {
       }
     }
     Assets {
-      Id: 3374193802675370255
-      Name: "Spiderweb VFX"
-      PlatformAssetType: 8
+      Id: 5685026719754291560
+      Name: "Bone Human Pile Straight 02"
+      PlatformAssetType: 1
       PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_web"
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_bones_human_pile_str_02_ref"
       }
     }
     Assets {

@@ -22,10 +22,9 @@ Objects {
   ChildIds: 5710037072682490341
   ChildIds: 10059769452389064711
   ChildIds: 4723360198974138289
-  ChildIds: 11541685031595701
-  ChildIds: 568750233781025091
-  ChildIds: 10578424799006957850
-  ChildIds: 5583665519497793569
+  ChildIds: 9961839165223203698
+  ChildIds: 16265271134452810434
+  ChildIds: 13710112252543381108
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -45,41 +44,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5583665519497793569
-  Name: "Dungeon Floor Basic"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8795222564152595715
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Dungeon Floor Basic"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3960
-            Y: 4010
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3457476505400084271
-    }
-  }
-}
-Objects {
-  Id: 10578424799006957850
-  Name: "Wall Block - Crypt"
+  Id: 13710112252543381108
+  Name: "Wall Corner - Crypt - Bones"
   Transform {
     Scale {
       X: 1
@@ -96,36 +62,33 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 3711921439748734852
+      key: 3889716785733686250
       value {
         Overrides {
           Name: "Name"
-          String: "Wall Block - Crypt"
+          String: "Wall Corner - Crypt - Bones"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -5320
-            Y: 3850
-            Z: -10
+            X: 300
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 89.9999542
           }
         }
       }
     }
     TemplateAsset {
-      Id: 18309653158979536963
+      Id: 13811501482707463234
     }
   }
 }
 Objects {
-  Id: 568750233781025091
-  Name: "Floor - Crypt"
+  Id: 16265271134452810434
+  Name: "Wall - Crypt - Bones"
   Transform {
     Scale {
       X: 1
@@ -136,30 +99,33 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1009112574901401343
+      key: 16842257764218057315
       value {
         Overrides {
           Name: "Name"
-          String: "Floor - Crypt"
+          String: "Wall - Crypt - Bones"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -5320
-            Y: 3940
-            Z: -10
+            Y: -293.464844
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
     }
     TemplateAsset {
-      Id: 5178776128129511083
+      Id: 16900733248428605814
     }
   }
 }
 Objects {
-  Id: 11541685031595701
-  Name: "Wall Corner - Crypt"
+  Id: 9961839165223203698
+  Name: "Floor - Crypt - Bones"
   Transform {
     Scale {
       X: 1
@@ -170,24 +136,28 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
-      key: 7650557427288961998
+      key: 17062652467849087860
       value {
         Overrides {
           Name: "Name"
-          String: "Wall Corner - Crypt"
+          String: "Floor - Crypt - Bones"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -5155
-            Y: 3850
-            Z: -10
+            X: 300
+            Y: 300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
     }
     TemplateAsset {
-      Id: 2259314259128147188
+      Id: 3342123619693964324
     }
   }
 }
@@ -300,6 +270,9 @@ Objects {
   Id: 10059769452389064711
   Name: "Wall"
   Transform {
+    Location {
+      X: -900
+    }
     Scale {
       X: 1
       Y: 1
