@@ -290,7 +290,7 @@ Objects {
     }
     Overrides {
       Name: "cs:SelectedMapIndex"
-      Int: 3
+      Int: 2
     }
   }
   Collidable_v2 {

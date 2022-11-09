@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14146941956844593476
+  Name: "Stone Arch (doorway) 001"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_stone_doorway_001"
+  }
+}
+Assets {
   Id: 14095644299964879682
   Name: "NFTUpgraded"
   PlatformAssetType: 23
@@ -152,6 +161,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 12891613213664917379
+  Name: "Stone Block Standard"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_block_01"
   }
 }
 Assets {
@@ -395,6 +413,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 6677237403455816226
+  Name: "Portal VFX"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_portal"
   }
 }
 Assets {

@@ -390,5 +390,10 @@ Assets {
       VirtualFolderPath: "Underwater"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "Proc Gen Tiles"
+      VirtualFolderPath: "Stone Temple"
+      PlatformAssetType: 5
+    }
   }
 }

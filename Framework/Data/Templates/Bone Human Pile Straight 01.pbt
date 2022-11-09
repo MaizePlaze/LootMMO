@@ -69,4 +69,5 @@ Assets {
   }
   SerializationVersion: 119
   VirtualFolderPath: "Proc Gen Tiles"
+  VirtualFolderPath: "Stone Temple"
 }

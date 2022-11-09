@@ -5,7 +5,7 @@
 "Lv2","8E63C9B05FD519E8","0BADBADBADBADBAD","False","Material(Coins=20)","TODO","126f57/loot-mmmaize","Social"
 "Raid2","7ECCB4F3B7F207C2","0BADBADBADBADBAD","False","Material(Wood=2), Wait(1), RandomItem(Greatness=15)","Equip, Lv5","126f57/loot-mmmaize","Social"
 "Raid3","562D3AF405543E14","0BADBADBADBADBAD","False","Material(Coins=10), Wait(1), Material(Linen=1), Wait(0.5), Material(Cotton=1)","","126f57/loot-mmmaize","Social"
-"Beasts1","4CE63A3BC6455AD0","CC1990890140FA46","True","Material(Coins=5), Wait(1), Material(Leather=1)","","126f57/loot-mmmaize","Beasts1"
+"Beasts1","4CE63A3BC6455AD0","CC1990890140FA46","True","Material(Coins=5), Wait(1), Material(Leather=1), Item(DungeonKey)","","126f57/loot-mmmaize","Beasts1"
 "Dragons1","4CE63A3BC6455AD0","9E51E151F0AD1250","True","XP(RNG[5-30]), Wait(1), Material(Coins=RNG[3-8])","","126f57/loot-mmmaize","Dragons1"
 "Undead1","04B14FD9D0C9CBF7","A3857E6AEB5AFF1E","True","Material(Coins=RNG[5-10]), Wait(1), Material(Metal=1)","","126f57/loot-mmmaize","Undead1"
 "Spiders1","B148283A6669C779","D0BF72662C5769DB","True","Material(Coins=RNG[7-15]), Wait(1), Material(Silk=1)","","126f57/loot-mmmaize","Spiders1"

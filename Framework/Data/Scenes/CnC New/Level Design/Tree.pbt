@@ -369,6 +369,15 @@ Objects {
           Name: "bp:Light Shaft Occlusion"
           Bool: false
         }
+        Overrides {
+          Name: "bp:Light Color"
+          Color {
+            R: 0.420000017
+            G: 0.368795
+            B: 0.2583
+            A: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -437,6 +446,12 @@ Objects {
             Value: "mc:eambientcubemapssmall:5"
           }
         }
+        Overrides {
+          Name: "bp:Blend Target Image"
+          Enum {
+            Value: "mc:eambientcubemapssmall:8"
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -480,7 +495,7 @@ Objects {
           Name: "bp:Horizon Color"
           Color {
             R: 0.193
-            G: 0.184019864
+            G: 0.191089332
             B: 0.181535989
             A: 0.9
           }
@@ -489,7 +504,7 @@ Objects {
           Name: "bp:Zenith Color"
           Color {
             R: 0.35
-            G: 0.248484507
+            G: 0.314690262
             B: 0.085177
             A: 0.6
           }
@@ -506,6 +521,15 @@ Objects {
           Name: "bp:Haze Falloff"
           Float: 15
         }
+        Overrides {
+          Name: "bp:Haze Color"
+          Color {
+            R: 0.770833
+            G: 0.738390446
+            B: 0.12198104
+            A: 1
+          }
+        }
       }
     }
     TemplateAsset {
@@ -520,7 +544,7 @@ Objects {
     Location {
       X: -150
       Y: 150
-      Z: 115
+      Z: -2700
     }
     Rotation {
     }

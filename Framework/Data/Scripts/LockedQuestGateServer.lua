@@ -21,11 +21,17 @@ TRIGGER.beginOverlapEvent:Connect(function(trigger, player)
 	
 	Task.Wait()
 	if not Object.IsValid(player) then return end
-	if player:GetResource("Keys") > 0
-	and not isOpen
-	then
-		player:RemoveResource("Keys", 1)
-		Open()
-	end
+	
+		-- Check if the player has access
+		local hasKey = _G.QuestController.HasCompleted(player, "Beasts1")
+		print(hasKey)
+		if not hasKey then
+			--Events.BroadcastToPlayer(player, "CraftingRoom.LockedMessage")
+			print("no key")
+			return
+		end	
+		if not isOpen then
+			Open()
+		end
 end)
 

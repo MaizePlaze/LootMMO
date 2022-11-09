@@ -195,9 +195,9 @@ function MapBuilder.SpawnEnemies(spawnPoints)
 
 	local ENEMY_IDS = {
 		"Raptor",
-		"Dragon",
+		"Raptor",
 		"Spider",
-		"Skeleton4"
+		"Raptor"
 	}
 
 	for index, point in ipairs(spawnPoints) do
