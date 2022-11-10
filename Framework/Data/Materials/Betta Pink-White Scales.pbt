@@ -2,7 +2,7 @@ Assets {
   Id: 11759642187664930947
   Name: "Betta Pink-White Scales"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 9343637653438665698
     ParameterOverrides {

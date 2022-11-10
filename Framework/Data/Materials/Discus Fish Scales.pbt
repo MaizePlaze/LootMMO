@@ -2,7 +2,7 @@ Assets {
   Id: 1204449627327614635
   Name: "Discus Fish Scales"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 6717054932271956401
     ParameterOverrides {

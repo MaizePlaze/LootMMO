@@ -5,6 +5,7 @@ local GATE = script:GetCustomProperty("Gate"):WaitForObject()
 local LOCK_SFX = script:GetCustomProperty("LockSFX"):WaitForObject()
 local GATE_SFX = script:GetCustomProperty("GateSFX"):WaitForObject()
 local GATE_END_SFX = script:GetCustomProperty("GateEndSFX"):WaitForObject()
+local QUEST_ID = script:GetCustomProperty("QuestId")
 
 local LOCK_DISAPPEAR_DELAY = 0.6
 local OPEN_DELAY = 4
@@ -36,9 +37,13 @@ end
 TRIGGER.beginOverlapEvent:Connect(function(trigger, player)
 	if isOpen then return end
 	if not player:IsA("Player") then return end
-	
-	if player:GetResource("Keys") > 0 then
+
+	-- Check if the player has access
+	local hasKey = _G.QuestController.HasCompleted(player, QUEST_ID)
+	print("Player has completed Quest: ", hasKey)
+	if hasKey then
 		Open()
+		Events.Broadcast("OpenGate")
 	end
 end)
 

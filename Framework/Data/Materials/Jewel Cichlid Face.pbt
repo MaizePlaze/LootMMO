@@ -2,7 +2,7 @@ Assets {
   Id: 274153021075144349
   Name: "Jewel Cichlid Face"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 16167005355717555960
     ParameterOverrides {

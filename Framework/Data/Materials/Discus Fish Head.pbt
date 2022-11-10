@@ -2,7 +2,7 @@ Assets {
   Id: 5705776463739246145
   Name: "Discus Fish Head"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 4621190602835806980
     ParameterOverrides {

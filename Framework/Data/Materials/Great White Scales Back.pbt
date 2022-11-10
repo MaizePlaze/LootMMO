@@ -2,7 +2,7 @@ Assets {
   Id: 12141066206549587915
   Name: "Great White Scales Back"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 16167005355717555960
     ParameterOverrides {

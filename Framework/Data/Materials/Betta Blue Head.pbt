@@ -2,7 +2,7 @@ Assets {
   Id: 13029153715848297446
   Name: "Betta Blue Head"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 16167005355717555960
     ParameterOverrides {

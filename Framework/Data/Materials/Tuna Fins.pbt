@@ -2,7 +2,7 @@ Assets {
   Id: 4921965323424704983
   Name: "Tuna Fins"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 14722796561991146384
     ParameterOverrides {

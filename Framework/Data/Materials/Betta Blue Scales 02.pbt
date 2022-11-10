@@ -2,7 +2,7 @@ Assets {
   Id: 13153280675923771201
   Name: "Betta Blue Scales 02"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 9343637653438665698
     ParameterOverrides {

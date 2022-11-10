@@ -2,7 +2,7 @@ Assets {
   Id: 3053710972148683913
   Name: "Discus Fish Fins"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 12225777922476739267
     ParameterOverrides {

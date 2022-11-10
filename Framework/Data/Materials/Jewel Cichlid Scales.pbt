@@ -2,7 +2,7 @@ Assets {
   Id: 15954138053500161675
   Name: "Jewel Cichlid Scales"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 9343637653438665698
     ParameterOverrides {

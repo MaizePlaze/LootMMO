@@ -2,7 +2,7 @@ Assets {
   Id: 10690861175422268925
   Name: "Betta Blue Fins"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 16167005355717555960
     ParameterOverrides {

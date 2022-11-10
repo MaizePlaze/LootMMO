@@ -1,13 +1,13 @@
 Assets {
   Id: 2059454133849085473
-  Name: "Locked Dungeon Gate"
+  Name: "Locked Portal Quest Gate"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 16107452528929690851
       Objects {
         Id: 16107452528929690851
-        Name: "Locked Dungeon Gate"
+        Name: "Locked Portal Quest Gate"
         Transform {
           Scale {
             X: 1
@@ -17,6 +17,10 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 5233715381566829457
+        ChildIds: 4766508817128472174
+        ChildIds: 17211669417149748668
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -101,6 +105,8 @@ Assets {
         ChildIds: 8408556065705174701
         ChildIds: 3819024858533995929
         ChildIds: 1186032712786898601
+        ChildIds: 14124704129054211273
+        ChildIds: 17201980506131820084
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -180,6 +186,10 @@ Assets {
               SubObjectId: 1186032712786898601
             }
           }
+          Overrides {
+            Name: "cs:QuestId"
+            String: "Beasts1"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -208,19 +218,19 @@ Assets {
         Name: "Lock"
         Transform {
           Location {
-            X: 22.1293869
-            Y: -2.31372261
-            Z: -134.096542
+            X: -15.4728928
+            Y: 0.151990429
+            Z: -183.154663
           }
           Rotation {
             Pitch: 90
-            Yaw: 0.0994292349
-            Roll: -179.900574
+            Yaw: -179.973633
+            Roll: 0.0263671875
           }
           Scale {
-            X: 0.399127603
-            Y: 0.399127603
-            Z: 0.399127603
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
           }
         }
         ParentId: 6334474249365085257
@@ -1031,17 +1041,16 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: -10.937891
-            Y: -0.0401783064
-            Z: -0.000376330019
+            X: -10.937933
+            Y: -0.040191602
+            Z: 21.8664513
           }
           Rotation {
-            Yaw: -1.70754674e-06
           }
           Scale {
-            X: 1.53634083
-            Y: 1.1889267
-            Z: 0.49999997
+            X: 1.5
+            Y: 1.2
+            Z: 0.878434181
           }
         }
         ParentId: 11258981553514273809
@@ -1103,17 +1112,17 @@ Assets {
         Name: "Gate"
         Transform {
           Location {
-            X: 3.49245854e-10
-            Y: 0.000363959931
-            Z: -1020.85181
+            X: 7.63672352
+            Y: -12.2289705
+            Z: -610.267456
           }
           Rotation {
             Yaw: 6.83017925e-06
           }
           Scale {
-            X: 0.99999994
-            Y: 1.24447381
-            Z: 1.00000012
+            X: 2.10000038
+            Y: 0.6
+            Z: 0.599999845
           }
         }
         ParentId: 6334474249365085257
@@ -1279,6 +1288,201 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 14124704129054211273
+        Name: "Portal VFX"
+        Transform {
+          Location {
+            X: -7.2789e-15
+            Y: 0.000200277384
+            Z: -279.993774
+          }
+          Rotation {
+            Pitch: -180
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6334474249365085257
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Portal Shape"
+            Int: 3
+          }
+          Overrides {
+            Name: "bp:Portal Spread"
+            Float: 0.4
+          }
+          Overrides {
+            Name: "bp:Intensity Color Blend"
+            Float: 1
+          }
+          Overrides {
+            Name: "bp:Background Texture"
+            Enum {
+              Value: "mc:eportalbackground:15"
+            }
+          }
+          Overrides {
+            Name: "bp:Scene View Distortion Type"
+            Enum {
+              Value: "mc:eportalscenedistortiontype:newenumerator0"
+            }
+          }
+          Overrides {
+            Name: "bp:Edge Distortion"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Speed"
+            Float: 0.247848794
+          }
+          Overrides {
+            Name: "bp:Intersection Distance"
+            Float: 44.234417
+          }
+          Overrides {
+            Name: "bp:Cast Shadows"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Maintain picture scale"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Edge Distance"
+            Float: 0.45
+          }
+          Overrides {
+            Name: "bp:Unlit"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Disable Swirl and Edge"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              G: 1.79999971
+              B: 2
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Color B"
+            Color {
+              G: 0.228999957
+              B: 0.687000036
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Color C"
+            Color {
+              G: 0.0599999391
+              B: 0.399999976
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Swirl Color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6677237403455816226
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 17201980506131820084
+        Name: "Stone Arch (doorway) 001"
+        Transform {
+          Location {
+            X: 6.65429083e-18
+            Y: 5.76336241e-08
+            Z: -0.0805906355
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: -179.999954
+          }
+          Scale {
+            X: 1.30000007
+            Y: 1.30000007
+            Z: 1.4
+          }
+        }
+        ParentId: 6334474249365085257
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12946987782778893177
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14146941956844593476
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 6507414254626011658
         Name: "LockedQuestGateServer"
         Transform {
@@ -1305,6 +1509,10 @@ Assets {
             ObjectReference {
               SubObjectId: 13498035684377536395
             }
+          }
+          Overrides {
+            Name: "cs:QuestId"
+            String: "Beasts1"
           }
         }
         WantsNetworking: true
@@ -1335,16 +1543,16 @@ Assets {
         Name: "Trigger"
         Transform {
           Location {
-            X: -16.5853329
+            X: 1.90734863e-06
             Y: -8.67843628e-05
             Z: 133.107361
           }
           Rotation {
           }
           Scale {
-            X: 1.29017913
-            Y: 1.29017913
-            Z: 1.29017913
+            X: 1.69999993
+            Y: 1.30000007
+            Z: 1.30000007
           }
         }
         ParentId: 5233715381566829457
@@ -1388,7 +1596,7 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 0.74999994
+            X: 1
             Y: 6.5
             Z: 9
           }
@@ -1425,6 +1633,106 @@ Assets {
         }
         Relevance {
           Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4766508817128472174
+        Name: "Trigger"
+        Transform {
+          Location {
+            Z: 431.142029
+          }
+          Rotation {
+            Pitch: -3.05175781e-05
+            Yaw: 89.9999695
+            Roll: -90
+          }
+          Scale {
+            X: 5.25000191
+            Y: 8.4168911
+            Z: 0.98899
+          }
+        }
+        ParentId: 16107452528929690851
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          InteractionLabel: "Enter Portal"
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+          InteractionTemplate {
+          }
+          BreadcrumbTemplate {
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 17211669417149748668
+        Name: "SceneTrigger"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -4.09811328e-05
+            Yaw: 89.9999771
+            Roll: 179.999954
+          }
+          Scale {
+            X: 1.49999976
+            Y: 1.49999976
+            Z: 1.49999976
+          }
+        }
+        ParentId: 16107452528929690851
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Trigger"
+            ObjectReference {
+              SubObjectId: 4766508817128472174
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 18308010068029491388
+          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -1505,6 +1813,24 @@ Assets {
       }
     }
     Assets {
+      Id: 6677237403455816226
+      Name: "Portal VFX"
+      PlatformAssetType: 6
+      PrimaryAsset {
+        AssetType: "BlueprintAssetRef"
+        AssetId: "fxbp_portal"
+      }
+    }
+    Assets {
+      Id: 14146941956844593476
+      Name: "Stone Arch (doorway) 001"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_stone_doorway_001"
+      }
+    }
+    Assets {
       Id: 198353679974341757
       Name: "Cube - Bottom-Aligned"
       PlatformAssetType: 1
@@ -1518,5 +1844,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 119
+  SerializationVersion: 120
 }

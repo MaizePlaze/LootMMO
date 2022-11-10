@@ -2,7 +2,7 @@ Assets {
   Id: 2123352520867703192
   Name: "Discus Fish Dorsal Fins"
   PlatformAssetType: 13
-  SerializationVersion: 119
+  SerializationVersion: 120
   CustomMaterialAsset {
     BaseMaterialId: 6717054932271956401
     ParameterOverrides {
